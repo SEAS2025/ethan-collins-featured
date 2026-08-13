@@ -1,0 +1,13 @@
+{
+  "name": "ethan-collins-featured",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Ethan Collins — featured Cursor-built apps for LinkedIn",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public --project-name=ethan-collins-featured"
+  },
+  "devDependencies": {
+    "wrangler": "^4.121.0"
+  }
+}
